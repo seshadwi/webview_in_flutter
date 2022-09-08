@@ -84,7 +84,7 @@ Berikut langkah-langkahnya
 
 4. Buat file `index.html` dan folder `styles` serta file `style.css` didalam folder tersebut. 
 
-
+Pada saat melakukan load asset, maka tulisan **Local demo page** menjadi biru, selain itu ketika mengakses HTML String dan Local file, maka tulisan menjadi hitam.
 
 | <!-- -->                      | <!-- -->                     |
 | -------------                 | -------------                |
