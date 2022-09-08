@@ -249,11 +249,11 @@ req.send();''');
             ),
             const PopupMenuItem<_MenuOptions>(
               value: _MenuOptions.loadHtmlString,
-              child: Text('Load HTML string'),
+              child: Text('Load HTML String'),
             ),
             const PopupMenuItem<_MenuOptions>(
               value: _MenuOptions.loadLocalFile,
-              child: Text('Load local file'),
+              child: Text('Load Local File'),
             ),
           ],
         );
