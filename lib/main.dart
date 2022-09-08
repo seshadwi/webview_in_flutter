@@ -1,6 +1,10 @@
+import 'dart:async'; // Add this import
+
 import 'package:flutter/material.dart';
-// Delete the package:webview_flutter/webview_flutter.dart import
-import 'src/web_view_stack.dart'; // Add this import
+import 'package:webview_flutter/webview_flutter.dart'; // Add this import back
+
+import 'src/navigation_controls.dart'; // Add this import
+import 'src/web_view_stack.dart';
 
 void main() {
   runApp(
@@ -18,14 +22,21 @@ class WebViewApp extends StatefulWidget {
 }
 
 class _WebViewAppState extends State<WebViewApp> {
+  final controller =
+      Completer<WebViewController>(); // Instantiate the controller
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Flutter WebView'),
+        // Add from here ...
+        actions: [
+          NavigationControls(controller: controller),
+        ],
+        // ... to here.
       ),
-      body:
-          const WebViewStack(), // Replace the WebView widget with WebViewStack
+      body: WebViewStack(controller: controller), // Add the controller argument
     );
   }
 }
