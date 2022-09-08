@@ -1,8 +1,4 @@
-# webview_in_flutter
-
-A new Flutter project.
-
-## Getting Started
+# Flutter Webview
 
 This project is a starting point for a Flutter application.
 
