@@ -86,6 +86,12 @@ Berikut langkah-langkahnya
 
 
 
+| <!-- -->                      | <!-- -->                     |
+| -------------                 | -------------                |
+| ![screenshot](images/15.png)  | ![screenshot](images/17.png) |
+| ![screenshot](images/16.png)  |  |
+
+
 
 
 
