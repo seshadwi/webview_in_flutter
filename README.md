@@ -1,12 +1,21 @@
 # Flutter Webview
 
-This project is a starting point for a Flutter application.
+## Langkah Praktikum 
 
-A few resources to get you started if this is your first Flutter project:
+### Getting Started
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Membuat project baru
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   `flutter create webview_in_flutter`
+
+2. Menambahkan plugin pada dependency
+
+   `flutter pub add webview_flutter`
+   
+### Menambahkan Widget Webview 
+
+Pada langkah praktikum ini ditambahkan plugin `WebView` agar aplikasi dapat memuat halaman website. 
+
+![screenshot](images/01.png)
+
+
