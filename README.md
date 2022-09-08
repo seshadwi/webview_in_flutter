@@ -16,7 +16,7 @@
 
 Pada langkah praktikum ini ditambahkan plugin `WebView` agar aplikasi dapat memuat halaman website. 
 
-|               |               |
+| <!-- -->      | <!-- -->      |
 | ------------- | ------------- |
 | ![screenshot](images/01.png)  | ![screenshot](images/02.png) |
 
