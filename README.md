@@ -48,6 +48,55 @@ NavigationDelegate digunakan untuk melakukan control navigasi yang terdapat pada
 
 `JavaScriptChannel` digunakan untuk melakukan komunikasi dari kode JavaScript ke Flutter. Pada langkah praktikum ini dilakukan request ke Public IP Address API, dan me-return alamat IP Address perangkat. Hasilnya adalah menampilkan IP Address berupa `snackbar` dengan meng-invoke `postMessage` pada `snacbar` `JavaScriptChannel`.
 
+| <!-- -->                      | <!-- -->                     |
+| -------------                 | -------------                |
+| ![screenshot](images/07.png)  | ![screenshot](images/08.png) |
+
+### Managing Cookies
+
+Aplikasi flutter dapat melakukan manajemen cookies didalam `WebView` dengan menggunakan `CookieManager` class. Pada praktikum ini ada beberapa cookies yang akan digunakan, antara lain : 
+
+1. Clear cookies
+
+2. List cookies
+
+3. Add cookies
+
+4. Set cookies
+
+5. Remove cookies
+
+| <!-- -->                      | <!-- -->                     |
+| -------------                 | -------------                |
+| ![screenshot](images/09.png)  | ![screenshot](images/10.png) |
+| ![screenshot](images/11.png)  | ![screenshot](images/12.png) |
+| ![screenshot](images/13.png)  | ![screenshot](images/14.png) |
+
+### Load Flutter assets, files and HTML strings int the WebView
+
+Berikut langkah-langkahnya 
+
+1. Menambahkan plugin `path_provider` menggunakan perintah `flutter pub add path_provider`
+
+2. Membuat direktori baru dengan nama `assets` pada folder root project.
+
+3. Didalam direktori `assets` tambahkan file direktori `www`. 
+
+4. Buat file `index.html` dan folder `styles` serta file `style.css` didalam folder tersebut. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
