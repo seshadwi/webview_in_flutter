@@ -72,7 +72,7 @@ Aplikasi flutter dapat melakukan manajemen cookies didalam `WebView` dengan meng
 | ![screenshot](images/11.png)  | ![screenshot](images/12.png) |
 | ![screenshot](images/13.png)  | ![screenshot](images/14.png) |
 
-### Load Flutter assets, files and HTML strings int the WebView
+### Load Flutter assets, files and HTML strings in the WebView
 
 Berikut langkah-langkahnya 
 
